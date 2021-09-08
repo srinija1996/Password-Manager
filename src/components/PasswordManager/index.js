@@ -123,7 +123,7 @@ class PasswordManager extends Component {
         src="https://assets.ccbp.in/frontend/react-js/no-passwords-img.png"
         alt="be no passwords"
       />
-      <h1>No Passwords</h1>
+      <p>No Passwords</p>
     </div>
   )
 
@@ -217,11 +217,11 @@ class PasswordManager extends Component {
         <Row>
           <FormHeading>Your Passwords</FormHeading>
           <Row>
-            <FormHeading>{passwordsList.length}</FormHeading>
+            <p>{passwordsList.length}</p>
             <div>
               <button type="button">
                 <img
-                  src="https://assets.ccbp.in/frontend/react-js/search-img.png"
+                  src="https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png"
                   alt="search"
                 />
               </button>
